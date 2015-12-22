@@ -12,3 +12,10 @@ This is the source code for [https://www.thetravelwebdesignagency.co.uk](thetrav
 ## Compile CSS/JS for production
 
 Check gulp-readme.md for details
+
+## Typekit
+
+The site makes extensive use of extra typefaces provided by Typekit:
+
+* Lobster
+* Cronos Pro (Regular, Bold)
