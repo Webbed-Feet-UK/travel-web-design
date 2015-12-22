@@ -1,0 +1,114 @@
+/*	********* utilities.less *********
+    A bunch of useful classes designed to be re-used
+    ************************************************************************* */
+
+
+// Use to hide or display items depending on JS support
+
+// Hide if JS disabled
+.no-js .no-js-hidden {
+    display: none !important;
+}
+
+// Visible if JS disabled
+.no-js-visible {
+    display: none !important;
+}
+
+.no-js .no-js-visible {
+    display: block !important;
+}
+
+
+// Clear floats like a boss
+.clearfix {
+    &:before,
+    &:after {
+        content: " "; // 1
+        display: table; // 2
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+.pull-right {
+    float: right !important;
+}
+.pull-left {
+    float: left !important;
+}
+
+
+// Handy spacer for adding vertical
+@multiplier: 2;
+@base: 30px;
+
+.spacer {
+    display: block;
+    height: @base;
+
+    &.-xs {
+        @size: @base / (2 * @multiplier);
+        height: @size;
+        width: @size;
+    }
+
+    &.-sm {
+        @size: @base / (1 * @multiplier);
+        height: @size;
+        width: @size;
+    }
+
+    &.-lg {
+        @size: @base * (@multiplier * 1);
+        height: @size;
+        width: @size;
+    }
+
+    &.-xl {
+        @size: @base * (@multiplier * 2);
+        height: @size;
+        width: @size;
+    }
+
+    &.-xxl {
+        @size: @base * (@multiplier * 3);
+        height: @size;
+        width: @size;
+    }
+
+    &.-xxxl {
+        @size: @base * (@multiplier * 4);
+        height: @size;
+        width: @size;
+    }
+
+}
+
+hr.spacer {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+// Show/Hide for double density screens (Retina)
+.visible-2x {
+    display: none;
+}
+
+.hidden-2x {
+    display: none;
+}
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .hidden-2x {
+        display:none;
+    }
+
+    .visible-2x {
+        display: inherit;
+    }
+}
+

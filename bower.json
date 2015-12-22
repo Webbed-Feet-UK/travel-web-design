@@ -1,0 +1,32 @@
+{
+  "name": "FFF",
+  "version": "1.0.0",
+  "authors": [
+    "Webbed Feet UK",
+    "Stuart Goodman <stuart@wfuk.com>",
+    "Dan Powell <dan@wfuk.com>"
+  ],
+  "description": "Frontend assets",
+  "homepage": "http://www.webbedfeetuk.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ScrollMagic": "~2.0.5",
+    "bootstrap": "~3.2.0",
+    "fff": "~0.0.1",
+    "fontawesome": "~4.2.0",
+    "greensock": "~1.17.0",
+    "jquery": "~2.1.1",
+    "jquery-legacy": "jquery#^1",
+    "modernizr": "~2.8.3",
+    "picturefill": "~3.0.1",
+    "requirejs": "~2.1.20",
+    "skrollr": "~0.6.30"
+  }
+}

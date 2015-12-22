@@ -1,0 +1,3 @@
+# Sitemap: http://thetravelwebdesignagency.co.uk/xmlsitemap
+User-agent: *
+Disallow:

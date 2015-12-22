@@ -1,0 +1,129 @@
+tasks:
+    less:
+        -   name: "Home CSS"
+            src:
+                - "./resources/assets/less/home.less"
+            dest: "./public/assets/css"
+
+        -   name: "Home @SM- CSS"
+            src:
+                - "./resources/assets/less/home@sm.less"
+            dest: "./public/assets/css"
+
+        -   name: "Home @MD+ CSS"
+            src:
+                - "./resources/assets/less/home@md.less"
+            dest: "./public/assets/css"
+
+        -   name: "Main CSS"
+            src:
+                - "./resources/assets/less/main.less"
+            dest: "./public/assets/css"
+
+        -   name: "Main @SM- CSS"
+            src:
+                - "./resources/assets/less/main@sm.less"
+            dest: "./public/assets/css"
+
+        -   name: "Main @MD+ CSS"
+            src:
+                - "./resources/assets/less/main@md.less"
+            dest: "./public/assets/css"
+
+
+    js:
+        -   name: "Home JS"
+            src:
+                - "./bower_components/picturefill/dist/picturefill.min.js"
+                - "resources/assets/js/homevariables.js"
+                - "resources/assets/js/home.js"
+                - "resources/assets/js/positioning.js"
+                - "resources/assets/js/media.js"
+                - "resources/assets/js/compatibility.js"
+            destFolder: "./public/assets/js"
+            dest: "home.js"
+
+        -   name: "Home animations JS"
+            src:
+                - "resources/assets/js/homeanimations.js"
+            destFolder: "./public/assets/js"
+            dest: "homeanimations.js"
+
+        -   name: "Home animations @MD+ JS"
+            src:
+                - "resources/assets/js/homeanimations@md.js"
+            destFolder: "./public/assets/js"
+            dest: "homeanimations@md.js"
+
+        -   name: "Main JS"
+            src:
+                - "./bower_components/picturefill/dist/picturefill.min.js"
+                - "resources/assets/js/variables.js"
+                - "resources/assets/js/main.js"
+                - "resources/assets/js/positioning.js"
+                - "resources/assets/js/media.js"
+                - "resources/assets/js/compatibility.js"
+            destFolder: "./public/assets/js"
+            dest: "main.js"
+
+        -   name: "Animations JS"
+            src:
+                - "resources/assets/js/animations.js"
+            destFolder: "./public/assets/js"
+            dest: "animations.js"
+
+        -   name: "Animations @MD+ JS"
+            src:
+                - "resources/assets/js/animations@md.js"
+            destFolder: "./public/assets/js"
+            dest: "animations@md.js"
+
+
+    js_plugins:
+
+        -   name: "Require JS"
+            src:
+                - "bower_components/requirejs/require.js"
+            destFolder: "./public/assets/js/vendor"
+            dest: "require.js"
+
+    copy:
+        -   name: "JS Vendor Plugins"
+            src:
+                - "bower_components/modernizr/modernizr.js"
+                - "bower_components/respond/dest/respond.min.js"
+                - "bower_components/jquery/dist/jquery.min.js"
+            dest: "./public/assets/js/vendor"
+
+        -   name: "JS Vendor - Greensock"
+            src:
+                - "bower_components/greensock/src/minified/**"
+            dest: "./public/assets/js/vendor/greensock"
+
+        -   name: "JS Vendor - ScrollMagic"
+            src:
+                - "bower_components/ScrollMagic/scrollmagic/minified/**"
+            dest: "./public/assets/js/vendor/scrollmagic"
+
+        -   name: "Fonts"
+            src:
+                - "bower_components/bootstrap/fonts/**"
+                - "bower_components/fontawesome/fonts/**"
+            dest: "./public/assets/fonts"
+
+watch:
+    -   files:
+            - "./resources/assets/less/**/*.less"
+        tasks:
+            - "css"
+
+    -   files:
+            - "./resources/assets/js/**/*.js"
+        tasks:
+            - "js"
+
+    -   files:
+            - "./public/**/*.html"
+            - "./resources/views/**/*.php"
+        tasks:
+            - "reload"

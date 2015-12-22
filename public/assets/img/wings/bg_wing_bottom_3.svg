@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 801 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" preserveAspectRatio="none">
+    <defs>
+        <path id="path-1" d="M120.35447,496.445842 L829.340624,754.023119 L777.569578,318.61916 L452.130719,-12.9819699 L120.35447,496.445842 Z"></path>
+        <path id="path-2" d="M124.758534,488.223987 L839.992382,748.272937 L851.588682,310.871072 L513.077087,58.4489222 L124.758534,488.223987 Z"></path>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Rectangle-4-Copy-41">
+            <use fill-opacity="0.4" fill="#000000" fill-rule="evenodd" transform="translate(474.847547, 370.520574) scale(-1, 1) rotate(-20.000000) translate(-474.847547, -370.520574) " xlink:href="#path-1"></use>
+            <use fill="none" xlink:href="#path-1"></use>
+        </g>
+        <g id="Rectangle-4-Copy-42">
+            <use fill-opacity="0.4" fill="#000000" fill-rule="evenodd" transform="translate(488.173608, 403.360930) scale(-1, 1) rotate(-20.000000) translate(-488.173608, -403.360930) " xlink:href="#path-2"></use>
+            <use fill="none" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 1920 740" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" preserveAspectRatio="none">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>bg_wing_left_4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="75.4256107%" x2="50%" y2="11.9170984%" id="linearGradient-1">
+            <stop stop-color="#AA4822" offset="0%"></stop>
+            <stop stop-color="#F27544" offset="100%"></stop>
+        </linearGradient>
+        <path id="path-2" d="M1911.34375,674.38281 L1,240.087146 L560.555877,39 L1911.34375,222.554692 L1911.34375,674.38281 Z"></path>
+        <linearGradient x1="81.7542561%" y1="43.6713546%" x2="18.2457439%" y2="43.6713546%" id="linearGradient-3">
+            <stop stop-color="#000000" stop-opacity="0.75" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <path id="path-4" d="M1912.95314,713.132812 L0,199.014859 L763.007825,38 L1912.95314,253.757812 L1912.95314,713.132812 Z"></path>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Rectangle-4-Copy-56">
+            <use fill-opacity="0.6" fill="url(#linearGradient-1)" fill-rule="evenodd" sketch:type="MSShapeGroup" transform="translate(956.171874, 356.691405) scale(-1, 1) translate(-956.171874, -356.691405) " xlink:href="#path-2"></use>
+            <use fill="none" xlink:href="#path-2"></use>
+        </g>
+        <g id="Rectangle-4-Copy-57">
+            <use fill-opacity="0.6" fill="url(#linearGradient-3)" fill-rule="evenodd" sketch:type="MSShapeGroup" transform="translate(956.476569, 375.566406) scale(-1, 1) translate(-956.476569, -375.566406) " xlink:href="#path-4"></use>
+            <use fill="none" xlink:href="#path-4"></use>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,64 @@
+.thumb(@padding: 10px) {
+	// Apply this to a div/anchor surrounding an image, not the image itself
+	display: block;
+	border: 2px solid darken(@theme-neutral, 5%);
+	padding: @padding;
+	background: #fff;
+	margin-left: auto;
+	margin-right: auto;
+
+	> img {
+		width: 100%;
+	}
+
+}
+
+.gradient_with_image_overlay(@from: #F1AF47, @to: #F27544, @url: '') {
+    background: @from;
+    background-image: url(@url); /* fallback */
+    background-image: url(@url), -webkit-gradient(linear, left top, left bottom, from(@from), to(@to)); /* Saf4+, Chrome */
+    background-image: url(@url), -webkit-linear-gradient(top, @from, @to); /* Chrome 10+, Saf5.1+ */
+    background-image: url(@url),    -moz-linear-gradient(top, @from, @to); /* FF3.6+ */
+    background-image: url(@url),      -o-linear-gradient(top, @from, @to); /* Opera 11.10+ */
+    background-image: url(@url),         linear-gradient(to bottom, @from, @to); /* W3C */
+    background-size: 100% 100%;
+
+    // Remove texture for @2x screens
+    @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+
+        background-image: -webkit-gradient(linear, left top, left bottom, from(@from), to(@to));
+        background-image: -webkit-linear-gradient(top, @from, @to);
+        background-image: -moz-linear-gradient(top, @from, @to);
+        background-image: -o-linear-gradient(top, @from, @to);
+        background-image: linear-gradient(to bottom, @from, @to);
+
+    }
+
+
+}
+
+
+.typoColor(@color: @text-color) {
+
+    color: @color;
+
+    h1,h2,h3,h4,h5,h6 {
+        color: @color;
+        font-weight: 400;
+        small {
+            color: lighten(@color, 80%);
+        }
+    }
+
+    a {
+        color: @color;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    table {
+        color: @color;
+    }
+}
+

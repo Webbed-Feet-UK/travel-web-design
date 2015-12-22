@@ -1,0 +1,19 @@
+developmentMode: true
+js:
+    minify: true
+    sourceMaps: false
+css:
+    minify: true
+    sourceMaps: false
+    minifyOptions:
+        #Enable compatibility mode due to this 'feature' https://github.com/jakubpawlowicz/clean-css/issues/654
+        compatibility: "ie7, -units.ch, -units.in -units.pc -units.pt -units.rem -units.vh -units.vm -units.vmax -units.vmin"
+        advanced: false
+        aggressiveMerging: false
+        restructuring: false
+        keepSpecialComments: 0
+browsersync:
+    title: "Travel Web Design"
+    proxy: "travelweb.localdev"
+    open: false
+    browser: "google chrome"

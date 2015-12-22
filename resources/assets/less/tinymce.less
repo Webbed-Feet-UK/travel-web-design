@@ -1,0 +1,16 @@
+/*	********* content.less *********
+    ************************************************************************* */
+
+// Import a few bits and pieces for tinyMCE
+@import (reference) './bower_components/bootstrap/less/bootstrap.less';
+@import (reference) 'variables.less';
+@import (reference) 'mixins.less';
+@import (reference) 'utilities.less';
+@import 'content.less';
+
+// Add some badding to the tinyMCE editor window
+.mce-content-body {
+     padding: 15px;
+     background: @body-bg;
+    .UserContent();
+}

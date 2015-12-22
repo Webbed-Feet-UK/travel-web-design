@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <defs>
+        <path id="path-1" d="M1524.50984,-424.598694 L-107,2.57889108 L629.197339,160.8125 L1524.50984,2.57888794 L1524.50984,-424.598694 Z"></path>
+        <path id="path-2" d="M1527.87338,-427 L-106,-70.1677383 L453.555877,130.919408 L1527.87338,-15.3881483 L1527.87338,-427 Z"></path>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Rectangle-4-Copy-27">
+            <use fill-opacity="0.25" fill="#000000" fill-rule="evenodd" sketch:type="MSShapeGroup" transform="translate(708.754920, -131.893097) scale(1, -1) translate(-708.754920, 131.893097) " xlink:href="#path-1"></use>
+            <use fill="none" xlink:href="#path-1"></use>
+        </g>
+        <g id="Rectangle-4-Copy-28">
+            <use fill-opacity="0.25" fill="#000000" fill-rule="evenodd" sketch:type="MSShapeGroup" transform="translate(710.936691, -148.040296) scale(1, -1) translate(-710.936691, 148.040296) " xlink:href="#path-2"></use>
+            <use fill="none" xlink:href="#path-2"></use>
+        </g>
+        <path d="M51,126.543015 L99.7935304,173.72466 L149.978962,109.287586 L86.6181477,50 L51,126.543015 Z" id="Path-81-Copy-11" fill-opacity="0.100000001" fill="#000000" sketch:type="MSShapeGroup"></path>
+        <path d="M114.285765,69.9999404 C114.285765,77.8682533 107.868347,84.2856717 100.000034,84.2856717 C92.1317211,84.2856717 85.7143027,77.8682533 85.7143027,69.9999404 C85.7143027,62.1316274 92.1317211,55.7142091 100.000034,55.7142091 C107.868347,55.7142091 114.285765,62.1316274 114.285765,69.9999404 L114.285765,69.9999404 Z M128.571497,69.9999404 C128.571497,54.2075109 115.792464,41.4284778 100.000034,41.4284778 C84.2076045,41.4284778 71.4285714,54.2075109 71.4285714,69.9999404 C71.4285714,73.4039623 71.8191969,76.9195915 73.2700915,79.9887916 L93.6384193,123.180807 C94.7544921,125.636167 97.3214594,127.142866 100.000034,127.142866 C102.678609,127.142866 105.245576,125.636167 106.417452,123.180807 L126.729977,79.9887916 C128.180871,76.9195915 128.571497,73.4039623 128.571497,69.9999404 L128.571497,69.9999404 Z" id="-copy" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+    </g>
+</svg>

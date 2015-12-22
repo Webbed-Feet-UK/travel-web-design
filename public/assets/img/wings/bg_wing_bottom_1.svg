@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none">
+    <defs>
+        <path id="path-1" d="M446.47332,143.650513 L-90.9782939,410.117003 L312.031816,623.456177 L817.95363,549.550751 L446.47332,143.650513 Z"></path>
+        <path id="path-2" d="M436.242958,99.6913127 L-102.23484,348.150424 L315.311132,621.58807 L796.111305,492.873968 L436.242958,99.6913127 Z"></path>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-4-Copy-37">
+            <use fill-opacity="0.4" fill="#000000" fill-rule="evenodd" transform="translate(363.487668, 383.553345) scale(1, -1) rotate(-47.000000) translate(-363.487668, -383.553345) " xlink:href="#path-1"></use>
+            <use fill="none" xlink:href="#path-1"></use>
+        </g>
+        <g id="Rectangle-4-Copy-38">
+            <use fill-opacity="0.4" fill="#000000" fill-rule="evenodd" transform="translate(346.938233, 360.639691) scale(1, -1) rotate(-47.000000) translate(-346.938233, -360.639691) " xlink:href="#path-2"></use>
+            <use fill="none" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>

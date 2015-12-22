@@ -1,0 +1,31 @@
+# DEV Files #
+######################
+*.sublime-project
+*.sublime-workspace
+/nbproject
+error_log
+/.settings
+/.idea
+/vendor
+/node_modules
+/bower_components
+Homestead.yaml
+.env
+npm-debug.log
+gulpconfig.yaml
+
+# Ignore htaccess - duplicate the .htaccess.example file and use that
+/.htaccess
+/.htpasswd
+/public/.htaccess
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

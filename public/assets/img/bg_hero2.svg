@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="640px" height="800px" viewBox="0 0 640 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>bg_hero2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="39.9313138%" y1="30.5361376%" x2="10.3485035%" y2="58.6817459%" id="linearGradient-1">
+            <stop stop-color="#004584" stop-opacity="0.615913723" offset="0%"></stop>
+            <stop stop-color="#006386" stop-opacity="0.702870245" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <path d="M92.3458215,553.916738 L199.053338,26.9169069 L549.993193,-87.110364 L579.658824,4.19106155 L442.358181,770.349996 L92.3458215,553.916738 Z" id="Rectangle-4-Copy-14" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" transform="translate(336.002323, 341.619816) scale(-1, 1) rotate(18.000000) translate(-336.002323, -341.619816) "></path>
+    </g>
+</svg>

@@ -1,0 +1,433 @@
+.Hero {
+
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background: none;
+
+    .container {
+        background: none;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    ._intro {
+        width: 640px;
+        height: 800px;
+        background-image: url('../img/bg_hero1.svg'), url('../img/bg_hero2.svg');
+        background-size: 100% 100%;
+
+        position: absolute;
+        top: -200px;
+        margin-left: -190px;
+        opacity: 1;
+    }
+
+
+    ._h1 {
+        color: #fff;
+        margin: 370px 100px 0 230px;
+        position: relative;
+        text-align: left;
+        text-shadow: rgba(0,0,0,0.6) 1px 1px 1px;
+
+        span {
+            display: block;
+        }
+
+        ._effective {
+            font-size: 72px;
+            text-shadow: rgba(0,0,0,0.4) 1px 1px 1px, lighten(@theme-primary, 10%) -1px -1px 0px;
+        }
+
+        ._website {
+            font-size: 48px;
+            position: absolute;
+            top: 65px;
+            left: 70px;
+            padding: 2px;
+            text-shadow: rgba(0,0,0,0.4) 1px 1px 1px, lighten(@theme-secondary, 10%) -1px -1px 0px;
+        }
+
+        ._design {
+            font-size: 48px;
+            position: absolute;
+            top: 65px;
+            left: 205px;
+            padding: 2px;
+            text-shadow: rgba(0,0,0,0.4) 1px 1px 1px, lighten(@theme-tertiary, 10%) -1px -1px 0px;
+        }
+
+        ._group {
+            position: absolute;
+            top: 120px;
+            left: 70px;
+
+        }
+
+        ._tour {
+        }
+
+        ._and {
+            font-size: 38px;
+            position: absolute;
+            top: 15px;
+            left: 220px;
+        }
+
+        ._travel {
+        }
+
+    }
+
+
+    // 80%
+
+    @media screen and (max-width: @screen-md) {
+
+        ._intro {
+            width: 512px;
+            height: 640px;
+            top: -160px;
+            margin-left: -152px;
+        }
+
+        ._h1 {
+            font-size: 23px;
+            margin: 296px 80px 0 184px;
+
+            ._effective {
+                font-size: 57px;
+            }
+
+            ._website {
+                font-size: 38px;
+                top: 53px;
+                left: 56px;
+                padding: 2px;
+            }
+
+            ._design {
+                font-size: 38px;
+                top: 53px;
+                left: 164px;
+                padding: 2px;
+            }
+
+            ._group {
+                top: 96px;
+                left: 56px;
+            }
+
+            ._tour {
+            }
+
+            ._and {
+                font-size: 30px;
+                top: 12px;
+                left: 176px;
+            }
+
+            ._travel {
+            }
+        }
+
+    }
+
+
+
+    // 100%
+/*
+    @media screen and (min-width: 1680px) {
+
+
+        ._intro {
+            width: 640px;
+            height: 800px;
+            top: -200px;
+            margin-left: -190px;
+        }
+
+        ._h1 {
+            font-size: 29px;
+            margin: 370px 100px 0 230px;
+
+            ._effective {
+                font-size: 72px;
+            }
+
+            ._website {
+                font-size: 48px;
+                top: 65px;
+                left: 70px;
+                padding: 2px;
+            }
+
+            ._design {
+                font-size: 48px;
+                top: 65px;
+                left: 205px;
+                padding: 2px;
+            }
+
+            ._group {
+                top: 120px;
+                left: 70px;
+            }
+
+            ._tour {
+            }
+
+            ._and {
+                font-size: 38px;
+                top: 15px;
+                left: 220px;
+            }
+
+            ._travel {
+            }
+        }
+
+    }
+*/
+
+
+
+
+
+
+
+    // 120%
+    @media screen and (min-width: @screen-xl) {
+
+
+        ._intro {
+            width: 768px;
+            height: 960px;
+            top: -240px;
+            margin-left: -228px;
+        }
+
+        ._h1 {
+            font-size: 36px;
+            margin: 444px 120px 0 276px;
+
+            ._effective {
+                font-size: 86px;
+            }
+
+            ._website {
+                font-size: 57px;
+                top: 78px;
+                left: 85px;
+                padding: 2px;
+            }
+
+            ._design {
+                font-size: 57px;
+                top: 78px;
+                left: 246px;
+                padding: 2px;
+            }
+
+            ._group {
+                top: 144px;
+                left: 84px;
+            }
+
+            ._tour {
+            }
+
+            ._and {
+                font-size: 45.6px;
+                top: 18px;
+                left: 264px;
+            }
+
+            ._travel {
+            }
+        }
+
+    }
+
+
+    // 130%
+    @media screen and (min-width: @screen-xxl-min) {
+
+
+        ._intro {
+            width: 832px;
+            height: 1040px;
+            top: -260px;
+            margin-left: -247px;
+        }
+
+        ._h1 {
+            font-size: 37px;
+            margin: 480px 130px 0 300px;
+
+            ._effective {
+                font-size: 93px;
+            }
+
+            ._website {
+                font-size: 62px;
+                top: 85px;
+                left: 91px;
+                padding: 2px;
+            }
+
+            ._design {
+                font-size: 62px;
+                top: 85px;
+                left: 266px;
+                padding: 2px;
+            }
+
+            ._group {
+                top: 156px;
+                left: 91px;
+            }
+
+            ._tour {
+            }
+
+            ._and {
+                font-size: 49.4px;
+                top: 19.5px;
+                left: 286px;
+            }
+
+            ._travel {
+            }
+        }
+
+    }
+
+
+
+/*
+    // 150%
+    @media screen and (min-width: @screen-xxl-min) {
+
+
+        ._intro {
+            width: 960px;
+            height: 1200px;
+
+            top: -300px;
+            margin-left: -285px;
+
+        }
+
+        ._h1 {
+
+
+            font-size: 43.5px;
+            margin: 555px 150px 0 340px;
+
+
+            ._effective {
+
+                font-size: 108px;
+            }
+
+            ._website {
+                font-size: 72px;
+                top: 97px;
+                left: 105px;
+                padding: 3px;
+
+            }
+
+            ._design {
+                font-size: 72px;
+                top: 97px;
+                left: 307px;
+                padding: 3px;
+            }
+
+            ._group {
+                top: 180px;
+                left: 105px;
+
+            }
+
+            ._tour {
+            }
+
+            ._and {
+                font-size: 57px;
+                top: 22.5px;
+                left: 330px;
+            }
+
+            ._travel {
+            }
+
+
+
+        }
+
+    }
+*/
+
+
+
+}
+
+.wf-inactive {
+    .Hero {
+
+        ._h1 {
+            ._effective { }
+            ._website { left: 45px; }
+            ._design { }
+            ._group { left: 40px; }
+            ._tour { }
+            ._and { left: 240px; }
+            ._travel { }
+        }
+
+        // 80%
+        @media screen and (max-width: @screen-md) {
+            ._h1 {
+                ._effective {  }
+                ._website { left: 36px; }
+                ._design { left: 164px; }
+                ._group { left: 36px; }
+                ._tour {  }
+                ._and { left: 180px; }
+                ._travel {  }
+            }
+        }
+
+        // 120%
+        @media screen and (min-width: @screen-xl) {
+            ._h1 {
+                ._effective { }
+                ._website { left: 55px; }
+                ._design { left: 246px; }
+                ._group { left: 80px; }
+                ._tour { }
+                ._and { left: 284px; }
+                ._travel { }
+            }
+        }
+
+        // 130%
+        @media screen and (min-width: @screen-xxl-min) {
+            ._h1 {
+                ._effective { }
+                ._website { left: 60px; }
+                ._design { left: 266px; }
+                ._group { left: 91px; }
+                ._tour {  }
+                ._and { left: 286px; }
+                ._travel { }
+            }
+        }
+    }
+}

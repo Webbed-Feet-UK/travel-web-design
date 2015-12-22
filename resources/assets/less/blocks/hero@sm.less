@@ -1,0 +1,75 @@
+
+
+.Hero {
+    background-image: url('../img/sections/section1/video_sm.jpg');
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+    @media  only screen and (min-device-pixel-ratio: 2),
+            only screen and (-webkit-min-device-pixel-ratio: 2),
+            only screen and (min-resolution: 192dpi) {
+
+        background-image: url('../img/sections/section1/video_sm@2x.jpg');
+    }
+
+
+    .container {
+        background: rgba(255,255,255,0.5);
+        padding: 150px 50px;
+        width: auto;
+    }
+
+
+
+    @media screen and (max-width: @screen-xs) {
+
+        background-image: url('../img/sections/section1/video_xs.jpg');
+
+        .container {
+            padding: 50px 50px;
+        }
+
+    }
+
+    @media  only screen and (min-device-pixel-ratio: 2) and (max-width: @screen-xs),
+            only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: @screen-xs),
+            only screen and (min-resolution: 192dpi) and (max-width: @screen-xs) {
+
+        background-image: url('../img/sections/section1/video_xs@2x.jpg');
+    }
+
+
+    @media screen and (min-width: @screen-xs) {
+
+        font-size: 36px;
+
+        ._effective {
+            font-size: 56px;
+        }
+
+        ._website {
+            font-size: 56px;
+
+        }
+
+        ._design {
+            font-size: 56px;
+        }
+
+        ._and {
+            font-size: 30px;
+        }
+    }
+
+}
+
+
+.lt-ie9 {
+
+    .Hero {
+        background-image: none;
+    }
+
+}

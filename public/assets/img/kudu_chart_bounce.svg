@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1141px" height="321px" viewBox="0 0 1141 321" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="98.7583705%" id="linearGradient-1">
+            <stop stop-color="#45CE63" offset="0%"></stop>
+            <stop stop-color="#4090CD" offset="100%"></stop>
+        </linearGradient>
+        <path id="path-2" d="M0,282 L983,282 L983,8"></path>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group-Copy" sketch:type="MSLayerGroup" transform="translate(8.000000, 0.000000)">
+            <g id="Group" transform="translate(7.000000, 0.000000)">
+                <g id="Path-211">
+                    <use stroke="#5D5D5D" stroke-width="2" fill-opacity="0.219999999" fill="url(#linearGradient-1)" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+                    <use stroke="none" fill="none" xlink:href="#path-2"></use>
+                </g>
+                <path d="M4,231 L131.08924,191.700658 L234.138716,213.888717 L392.935835,141.325658 L541.954769,196.129699 L618.042637,71.0963346 L720.61908,118.819463 L823.163826,39.1950188 L975,36" id="Path-212" stroke="#E69642" stroke-width="4" sketch:type="MSShapeGroup"></path>
+                <text id="100%" sketch:type="MSTextLayer" font-family="Cronos Pro" font-size="23.3454545" font-weight="normal" line-spacing="32" fill="#000000">
+                    <tspan x="998" y="18">100%</tspan>
+                </text>
+                <text id="0%" sketch:type="MSTextLayer" font-family="Cronos Pro" font-size="23.3454545" font-weight="normal" line-spacing="32" fill="#000000">
+                    <tspan x="998" y="263">0%</tspan>
+                </text>
+                <text id="%-users-viewing-" sketch:type="MSTextLayer" font-family="Cronos Pro" font-size="15.5636364" font-weight="normal" line-spacing="22" fill="#000000">
+                    <tspan x="1003" y="118">% users viewing </tspan>
+                    <tspan x="1003" y="143.112734">additional pages</tspan>
+                </text>
+                <text id="time" sketch:type="MSTextLayer" font-family="Cronos Pro" font-size="15.5636364" font-weight="normal" sketch:alignment="middle" line-spacing="32" fill="#000000">
+                    <tspan x="477.376" y="298">time</tspan>
+                </text>
+            </g>
+            <circle id="Oval-1" fill="#E69642" sketch:type="MSShapeGroup" cx="139" cy="192" r="9"></circle>
+            <circle id="Oval-1-Copy" fill="#E69642" sketch:type="MSShapeGroup" cx="9" cy="236" r="9"></circle>
+            <circle id="Oval-1-Copy-2" fill="#E69642" sketch:type="MSShapeGroup" cx="240" cy="218" r="9"></circle>
+            <circle id="Oval-1-Copy-3" fill="#E69642" sketch:type="MSShapeGroup" cx="400" cy="141" r="9"></circle>
+            <circle id="Oval-1-Copy-4" fill="#E69642" sketch:type="MSShapeGroup" cx="550" cy="196" r="9"></circle>
+            <circle id="Oval-1-Copy-5" fill="#E69642" sketch:type="MSShapeGroup" cx="627" cy="71" r="9"></circle>
+            <circle id="Oval-1-Copy-6" fill="#E69642" sketch:type="MSShapeGroup" cx="730" cy="119" r="9"></circle>
+            <circle id="Oval-1-Copy-7" fill="#E69642" sketch:type="MSShapeGroup" cx="830" cy="39" r="9"></circle>
+            <circle id="Oval-1-Copy-8" fill="#E69642" sketch:type="MSShapeGroup" cx="975" cy="35" r="9"></circle>
+        </g>
+    </g>
+</svg>

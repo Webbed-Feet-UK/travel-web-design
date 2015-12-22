@@ -1,0 +1,87 @@
+.Parallax {
+
+    .container {
+        position: relative;
+    }
+
+    ._title {
+
+        background: rgba(0,0,0,0.6);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 20px;
+        width: 100%;
+
+
+        ._text {
+            text-align: center;
+            margin-bottom: 0;
+
+        }
+
+
+        &.-title1 {
+            ._s1 { font-size: 34px; display: block;}
+            ._s2 {  }
+            ._s3 {  }
+        }
+
+        &.-title2 {
+            ._s1 { display: block; }
+            ._s2 { display: block; }
+        }
+
+        &.-title3 {
+            ._s1 { font-size: 36px; display: block; }
+            ._s2 { display: block; font-size: 58px; }
+        }
+
+        &.-title4 {
+
+        }
+
+
+        @media screen and (max-width: 480px) {
+            ._text {
+                font-size: 38px;
+            }
+
+
+            &.-title1 {
+                ._s1 { font-size: 28px; display: block;}
+            }
+
+            &.-title2 {
+                ._s1 { display: block; }
+                ._s2 { display: block; }
+            }
+
+            &.-title3 {
+                ._s1 { font-size: 28px; display: block; }
+                ._s2 { display: block; font-size: 38px; }
+            }
+
+
+        }
+
+    }
+
+}
+
+
+.lt-ie9 {
+
+    .Parallax {
+
+        ._title {
+            position: relative;
+            color: #333;
+            ._text,
+            small {
+                color: #333 !important;
+            }
+        }
+    }
+
+}

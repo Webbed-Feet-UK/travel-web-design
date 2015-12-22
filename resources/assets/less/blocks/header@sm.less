@@ -1,0 +1,53 @@
+.Header {
+
+    background: #fff;
+    padding: 15px 0;
+
+    ._wrapperNav {
+
+
+    }
+
+    ._wrapperLogo {
+
+        @media screen and (max-width: @screen-xs) {
+            //margin-top: 10px;
+        }
+
+    }
+
+    ._contact {
+
+        text-align: center;
+        line-height: 1.1;
+        margin-top: 15px;
+
+        ._text {
+            color: #666;
+        }
+
+        &.-md {
+            display: none;
+        }
+
+        &.-sm {
+            display: block;
+        }
+
+        @media screen and (min-width: @screen-xs) {
+
+            margin-top: 60px;
+
+            &.-md {
+                display: block;
+            }
+
+            &.-sm {
+                display: none;
+            }
+        }
+
+
+    }
+
+}

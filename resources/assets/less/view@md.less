@@ -1,0 +1,57 @@
+body.View {
+    opacity: 0;
+    @transition: opacity 0.2s ease-in-out;
+    .transition(@transition);
+
+    &.-visible {
+        opacity: 1;
+    }
+
+
+    /*  ====== Base ======
+        ========================================================================= */
+
+
+
+    /*  ====== Elements ======
+        ========================================================================= */
+
+
+
+
+    /*  ====== Modifiers ======
+        ========================================================================= */
+
+
+
+
+    /*  ====== Breakpoints ======
+        ========================================================================= */
+
+    @media screen and (max-width:@screen-sm) {
+        ._column {
+            &.-column1 {
+                //width: 100%;
+            }
+            &.-column2 {
+                //width: 100%;
+            }
+            &.-column3 {
+                //width: 100%;
+            }
+        }
+    }
+}
+
+
+.no-js body.View {
+    opacity: 1 !important;
+}
+
+@media screen and (max-width:@screen-sm) {
+
+    body.View {
+        opacity: 1 !important;
+    }
+
+}

@@ -1,0 +1,199 @@
+.Parallax {
+
+    .container {
+        position: relative;
+    }
+
+
+    ._title {
+        height: 400px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+        position: absolute;
+        bottom: 0;
+
+
+        /*
+        ._block {
+            display: block;
+            &.-left.-sm {
+                margin-left: 20px;
+            }
+        }
+        */
+
+        &.-right {
+            right: 0;
+        }
+
+        &.-title1 {
+            height: 480px;
+            padding: 120px 260px 0 150px;
+            background-image: url('../img/wings/bg_wing_bottom_1.svg');
+
+            ._s1 { font-size: 34px; display: block; margin-top: 20px}
+            ._s2 { display: block; margin-left: 0.8em;}
+            ._s3 { display: block; margin-left: 0.8em;}
+
+        }
+
+        &.-title2 {
+            height: 620px;
+            padding: 300px 260px 0 150px;
+            background-image: url('../img/wings/bg_wing_bottom_2.svg');
+
+            ._s1 { display: block; margin-left: 0.8em;}
+            ._s2 { display: block; margin-left: 3em;}
+
+        }
+
+        &.-title3 {
+            height: 510px;
+            padding: 200px 160px 0 200px;
+            background-image: url('../img/wings/bg_wing_bottom_3.svg');
+
+            ._s1 { font-size: 36px; display: block; margin-top: 20px; text-align: right; margin-right: 2em;}
+            ._s2 { display: block; font-size: 58px; }
+
+        }
+
+
+        &.-title4 {
+            height: 560px;
+            padding: 240px 260px 0 150px;
+            background-image: url('../img/wings/bg_wing_bottom_2.svg');
+
+            ._s1 { display: block; margin-left: 0.8em;}
+            ._s2 { display: block; margin-left: 3em;}
+
+        }
+
+
+
+        @media screen and (max-width: 1920px) {
+
+            &.-title1 {
+                height: 450px;
+                //padding: 120px 260px 0 150px;
+            }
+
+            &.-title2 {
+                height: 580px;
+                //padding: 300px 260px 0 150px;
+            }
+
+            &.-title3 {
+                height: 480px;
+                //padding: 200px 160px 0 250px;
+            }
+
+
+            &.-title4 {
+                height: 530px;
+                //padding: 240px 260px 0 150px;
+            }
+
+        }
+
+
+        @media screen and (max-width: 1680px) {
+
+            &.-title1 {
+                height: 410px;
+                //padding: 120px 260px 0 150px;
+            }
+
+            &.-title2 {
+                height: 550px;
+                //padding: 300px 260px 0 150px;
+            }
+
+            &.-title3 {
+                height: 430px;
+                //padding: 200px 160px 0 250px;
+            }
+
+
+            &.-title4 {
+                height: 500px;
+                //padding: 240px 260px 0 150px;
+            }
+        }
+
+
+
+
+        @media screen and (max-width: @screen-sm-max) {
+
+            &.-title2 {
+                height: 500px;
+                padding: 300px 160px 0 80px;
+            }
+
+            &.-title3 {
+                height: 430px;
+                padding: 200px 130px 0 200px;
+            }
+
+            &.-title4 {
+                height: 450px;
+                //padding: 240px 260px 0 150px;
+            }
+
+        }
+
+
+
+    }
+
+
+    &.-horizontal {
+        ._img {
+            margin-left: -100%;
+            width: 200%;
+            max-width: none;
+
+            &.-invert {
+                margin-left: auto;
+                margin-right: -100%;
+            }
+
+        }
+    }
+
+
+    &.-vertical {
+        overflow-y: hidden;
+        ._img {
+            //position: relative;
+            margin-bottom: -50%;
+        }
+    }
+
+}
+
+
+.no-js {
+    .Parallax {
+        ._title {
+
+            &.-title1 {
+                height: 370px;
+            }
+
+            &.-title2 {
+                height: 520px;
+            }
+
+            &.-title3 {
+                height: 430px;
+            }
+
+            &.-title4 {
+                height: 430px;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,313 @@
+/*	********* typography.less *********
+		************************************************************************* */
+
+
+// Set up font-sizes according to a set ratio
+@h6: @font-size-base / @headingRatio;
+@h5: @font-size-base;
+@h4: @font-size-base * @headingRatio;
+@h3: @h4 * @headingRatio;
+@h2: @h3 * @headingRatio;
+@h1: @h2 * @headingRatio;
+
+
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	@transition: color .2s ease-in-out, background .2s ease-in-out, border .2s ease-in-out;
+	.transition(@transition);
+
+	font-weight: 700;
+
+	&:hover {
+		color: darken(@link-color, 20%);
+		text-decoration: none;
+	}
+
+	&.inactive {
+		color: @text-color;
+		&:hover {
+				cursor: default;
+				color: @text-color;
+		}
+	}
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	small {
+
+	}
+
+	strong {
+
+	}
+
+
+	&.lead {
+
+    	font-size: 24px;
+
+    	&.-xs {
+        	font-size: 18px;
+    	}
+
+        &.-sm {
+        	font-size: 20px;
+    	}
+
+        &.-lg {
+        	font-size: 28px;
+    	}
+
+        &.-xl {
+        	font-size: 34px;
+    	}
+
+	}
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	//text-rendering: optimizelegibility; // Fix the character spacing for headings
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-weight: 300;
+	line-height: 1.2;
+	small {
+		color: lighten(@text-color, 20%);
+		&:before {
+			content: ' ';
+		}
+	}
+	a {
+		font-weight: 400;
+		text-decoration: none;
+	}
+}
+
+h1 {
+	font-size: @h1;
+}
+
+h2 {
+	font-size: @h2;
+}
+
+h3 {
+	font-size: @h3;
+}
+
+h4 {
+	font-size: @h4;
+}
+
+h5 {
+	font-size: @h5;
+}
+
+h6 {
+	font-size: @h6;
+}
+
+@media screen and (max-width: @screen-sm) {
+
+    h1 {
+	    font-size: @h1*0.8;
+    }
+
+    h2 {
+    	font-size: @h2*0.8;
+    }
+
+    h3 {
+    	font-size: @h3*0.8;
+    }
+
+}
+
+img {
+	border: none;
+	max-width: 100%; // Part 1: Set a maximum relative to the parent
+	height: auto; // Part 2: Scale the height according to the width, otherwise you get stretching
+	&.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+	}
+}
+
+hr {
+
+    border-top: 1px solid #ddd;
+    //height: 20px;
+//     background: url('../images/hr.png') top center no-repeat;
+
+    &.-sm {
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    &.spacer {
+        padding: 0;
+        margin: 0;
+        height: 1em;
+        width: 1em;
+        visibility: hidden;
+
+        &.-lg {
+            height: 1.4em;
+        }
+
+        &:last-child,
+        &:first-child {
+            display: none;
+        }
+    }
+
+    &.divider {
+        display: block;
+        margin: 0;
+        padding: 10px 0;
+        height: 20px;
+        border: none;
+        width: 100%;
+        &.-lg {
+            padding: 20px 0;
+        }
+    }
+}
+
+table {
+	.table();
+	.table-striped();
+}
+
+
+// Alignment
+.text-left           { text-align: left; }
+.text-right          { text-align: right; }
+.text-center         { text-align: center; }
+.text-justify        { text-align: justify; }
+.text-nowrap         { white-space: nowrap; }
+
+// Transformation
+.text-lowercase      { text-transform: lowercase; }
+.text-uppercase      { text-transform: uppercase; }
+.text-capitalize     { text-transform: capitalize; }
+
+
+.text-primary { color: @theme-primary; }
+.text-secondary { color: @theme-secondary; }
+.text-tertiary { color: @theme-tertiary; }
+
+/*  ====== Alternative Styles ======
+    Mixins for setting font colours
+    ========================================================================= */
+
+.Typography {
+
+    &.-positive {
+        .typoColor(#fff);
+    }
+
+    &.-negative {
+        .typoColor(#333);
+    }
+
+    &.-header {
+        font-weight: bold;
+        a {
+            color: #333;
+            &:hover {
+                color: #009366
+            }
+        }
+    }
+
+
+    &.-main {
+        color: #222;
+
+        h1,h2,h3,h4,h5,h6 {
+            color: #222;
+        }
+
+        a {
+            font-weight: bold;
+            color: #CD834B;
+            &:hover {
+                color: lighten(#CD834B, 20%);
+                text-decoration: none;
+            }
+        }
+
+        table {
+            color: #222;
+        }
+
+    }
+
+    &.-lg {
+
+        p {
+
+            font-size: 20px;
+
+            &.lead {
+
+        	font-size: 32px;
+            	&.-xs {
+                	font-size: 24px
+            	}
+
+                &.-sm {
+                	font-size: 28px;
+            	}
+
+                &.-lg {
+                	font-size: 36px;
+            	}
+
+                &.-xl {
+                	font-size: 42px;
+            	}
+        	}
+
+	    }
+    }
+}
+
+
+/*	====== User Typography ======
+    Apply 'content' class to any areas of the site that are editable via tinyMCE
+    ========================================================================= */
+
+.Content {
+
+    a:active {
+        text-decoration: none;
+    }
+
+	p {
+		margin-bottom: 1em;
+		small {
+				margin-bottom: 1em;
+		}
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+			margin-bottom: 20px;
+	}
+
+	p, h1, h2, h3, h4, h5, h6 {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+}
+

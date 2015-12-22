@@ -1,0 +1,15 @@
+# EditorConfig
+
+# top-most EditorConfig file
+root = true
+
+# 2 width tab indentation
+[*]
+indent_style = space
+indent_size = 4
+
+# Character set
+charset = utf-8
+
+# Remove trailing whitespace
+trim_trailing_whitespace = true

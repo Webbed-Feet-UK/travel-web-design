@@ -1,0 +1,48 @@
+.Navigation {
+
+    display: none;
+    opacity: 0;
+    position:  absolute;
+    top: 160px;
+    left: 0;
+    width: 100%;
+
+    li {
+        padding: 10px 15%;
+    }
+
+    a {
+        @shadow: rgba(0,0,0,0.6) 0 0 50px;
+        .box-shadow(@shadow);
+    }
+
+    @media screen and (max-width: @screen-xs) {
+        li {
+            padding: 10px 20px;
+        }
+    }
+
+
+}
+
+
+.NavToggle {
+    display: block;
+    float: right;
+    margin-top: 10px;
+}
+
+
+.no-js .Navigation {
+    display: block;
+    opacity: 1;
+}
+
+
+@media screen and (max-width: @screen-sm) {
+    .no-js {
+        .Navigation {
+            top: 20px;
+        }
+    }
+}

@@ -1,0 +1,98 @@
+.Section {
+    position: relative;
+    z-index: @zindex_section_content;
+
+    ._end {
+        display: none;
+
+        ._bg {
+            width: 100%;
+            height: auto;
+            max-height:100%;
+            display: block;
+        }
+
+    }
+
+
+    > ._inner {
+        position: relative;
+        margin-top: -1px;
+        margin-bottom: -1px;
+
+        .gradient_with_image_overlay();
+
+        @media screen and (max-width: @screen-sm) {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+    }
+
+
+
+
+
+    ._content {
+        text-shadow: rgba(0,0,0, 0.3) 0 2px 0;
+
+        .Typography.-positive {
+            text-shadow: rgba(0,0,0, 0.3) 0 2px 0;
+        }
+
+        .Typography.-negative {
+            text-shadow: rgba(255,255,255, 0.3) 1px 1px 0;
+        }
+
+
+    }
+
+
+    &.-section1 {
+        > ._inner {
+            .gradient_with_image_overlay(#F1AF47, #F27544, '../img/texture/polygon1.svg');
+        }
+    }
+
+
+    &.-section2 {
+        > ._inner {
+            .gradient_with_image_overlay(#69A7D6, #4090CD, '../img/texture/polygon2.svg');
+            background-size: 100% 100%;
+        }
+    }
+
+    &.-section3 {
+        > ._inner {
+            .gradient_with_image_overlay(#3A9366, #59BD8A, '../img/texture/polygon1.svg');
+        }
+
+        ._img1 {
+            display: inline-block;
+
+            width: auto;
+            max-width: 100%;
+
+            background: url('../img/img_world_mask.svg') left center repeat-x;
+            background-size: cover;
+            border-radius: 50%;
+            @shadow: inset -20px -20px 30px rgba(0, 0, 0, 0.1);
+            .box-shadow(@shadow);
+
+            img{ width: 200px; }
+        }
+
+    }
+
+    &.-section4 {
+        > ._inner {
+            .gradient_with_image_overlay(#FFFDF7, #E6D7C2, '../img/texture/polygon2.svg');
+        }
+    }
+
+    &.-section5 {
+        > ._inner {
+            .gradient_with_image_overlay(#F27544, #F1AF47, '../img/texture/polygon1.svg');
+        }
+    }
+}

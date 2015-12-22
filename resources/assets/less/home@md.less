@@ -1,0 +1,61 @@
+
+/*	********* main.less *********
+************************************************************************* */
+
+// Checkout *root*/frontend-readme.md for more details on compiling this bad boy.
+
+
+/*  ====== Frameworks ======
+    ========================================================================= */
+
+// First, let's *reference* Bootstrap - we'll use all bootstrap classes as mixins to keep file size low.
+
+// Import a customised version of the bootstrap variables
+
+@import (reference) "./bower_components/bootstrap/less/bootstrap.less";
+
+@import (reference) 'variables.less';
+
+// Some custom utilities (mixins)
+@import (reference) 'mixins.less';
+@import (reference) 'utilities.less';
+
+
+/*  ====== Project Theme ======
+    ========================================================================= */
+
+
+
+/*  --- Elements ---
+    ------------------------------------------------------------------------- */
+
+//@import './assets/less/elements/buttons.less';
+
+
+/*  --- Blocks ---
+    ------------------------------------------------------------------------- */
+
+@import './blocks/nav@md.less';
+@import './blocks/hero@md.less';
+@import './blocks/header@md.less';
+@import './blocks/section@md.less';
+@import './blocks/video@md.less';
+@import './blocks/wing@md.less';
+@import './blocks/parallax@md.less';
+
+/*
+@import './assets/less/blocks/block.less';
+@import './assets/less/blocks/navbar.less';
+@import './assets/less/blocks/nav.less';
+
+@import './assets/less/blocks/carousel.less';
+@import './assets/less/blocks/table.less';
+*/
+
+/*  --- Views ---
+	------------------------------------------------------------------------- */
+
+@import './view@md.less';
+
+// Home
+@import './views/home@md.less';

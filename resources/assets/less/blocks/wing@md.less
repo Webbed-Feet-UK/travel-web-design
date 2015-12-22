@@ -1,0 +1,143 @@
+.Wing {
+
+    position: relative;
+
+/*
+    &.-right {
+        float: right;
+        width: 500px;
+        text-align: right;
+
+        > ._inner {
+            padding-right: 0px;
+        }
+    }
+
+    &.-left {
+        float: left;
+        width: 500px;
+        text-align: left;
+
+        > ._inner {
+            padding-left: 0px;
+        }
+    }
+*/
+
+    &.-right {
+        text-align: right;
+
+        > ._inner {
+            padding-right: 0px;
+        }
+    }
+
+    &.-left {
+        text-align: left;
+
+        > ._inner {
+            padding-left: 0px;
+        }
+    }
+
+    ._bg {
+        background-size: 100%;
+        position: absolute;
+    }
+
+
+    &.-bg1 {
+        ._bg {
+            background-image: url('../img/wings/bg_wing_left_1.svg');
+            width: 1640px;
+            height: 901px;
+            right: -120px;
+            top: -500px;
+        }
+        &.-right {
+            ._bg {
+                background-image: url('../img/wings/bg_wing_right_1.svg');
+                left: -120px;
+                right: auto;
+            }
+        }
+    }
+
+    &.-bg2 {
+        ._bg {
+            background-image: url('../img/wings/bg_wing_left_2.svg');
+            width: 1640px;
+            height: 580px;
+            right: -120px;
+            top: -260px;
+        }
+        &.-right {
+            ._bg {
+                background-image: url('../img/wings/bg_wing_right_2.svg');
+                left: -120px;
+                right: auto;
+            }
+        }
+    }
+
+    &.-bg3 {
+        ._bg {
+            background-image: url('../img/wings/bg_wing_left_3.svg');
+            width: 1920px;
+            height: 740px;
+            right: -300px;
+            top: -420px;
+        }
+        &.-right {
+            ._bg {
+                background-image: url('../img/wings/bg_wing_right_3.svg');
+                left: -300px;
+                right: auto;
+            }
+        }
+    }
+
+    &.-bg4 {
+        ._bg {
+            background-image: url('../img/wings/bg_wing_left_4.svg');
+            width: 1920px;
+            height: 740px;
+            right: -360px;
+            top: -128px;
+        }
+        &.-right {
+            ._bg {
+                background-image: url('../img/wings/bg_wing_right_4.svg');
+                left: -350px;
+                right: auto;
+            }
+        }
+    }
+
+
+
+    > ._inner {
+        position: relative;
+        z-index: 10;
+        padding: 20px;
+        //padding-right: 0;
+
+        ._text {
+            display: inline-block;
+
+            &.-right {
+
+            }
+
+            &.-half {
+                width: 50%;
+            }
+
+        }
+
+    }
+
+
+
+
+}
